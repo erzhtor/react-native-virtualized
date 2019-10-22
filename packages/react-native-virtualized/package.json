@@ -1,0 +1,21 @@
+{
+  "name": "react-native-virtualized",
+  "version": "1.0.0",
+  "description": "React Native Virtualized Infinite FlatList and SectionList",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": "Erzhan Torokulov",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "rm -rf ./dist && tsc"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-native": "^0.60.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.0",
+    "@types/react-native": "^0.57.65"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "React Native Virtualized Example",
+    "slug": "example",
+    "privacy": "unlisted",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "entryPoint": "__generated__/AppEntry.js",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "rnCliPath": "../../node_modules/react-native/local-cli/cli.js",
+    "nodeModulesPath": "../../",
+    "packagerOpts": {
+      "config": "metro.config.js"
+    }
+  }
+}

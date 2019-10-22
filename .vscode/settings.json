@@ -1,0 +1,26 @@
+{
+    "workbench.colorCustomizations": {
+      "activityBar.background": "#ab162a",
+      "activityBar.foreground": "#e7e7e7",
+      "activityBar.inactiveForeground": "#e7e7e799",
+      "activityBarBadge.background": "#2aa916",
+      "activityBarBadge.foreground": "#e7e7e7",
+      "titleBar.activeBackground": "#7e101f",
+      "titleBar.inactiveBackground": "#7e101f99",
+      "titleBar.activeForeground": "#e7e7e7",
+      "titleBar.inactiveForeground": "#e7e7e799",
+      "statusBar.background": "#7e101f",
+      "statusBarItem.hoverBackground": "#ab162a",
+      "statusBar.foreground": "#e7e7e7"
+    },
+    "peacock.color": "#7e101f",
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/node_modules": true
+  },
+  "editor.formatOnSave": true
+}
