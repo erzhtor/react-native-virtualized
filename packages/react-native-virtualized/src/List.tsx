@@ -7,7 +7,7 @@ type Props<ItemT> = FlatList<ItemT>['props'] & {
     batch?: number;
 }
 
-export function VirtualizedFlatList<ItemT>({ data, onEndReached, batch = 30, ...props }: Props<ItemT>) {
+export function VirtualizedFlatList<ItemT>({ data, onEndReached, batch = 10, ...props }: Props<ItemT>) {
     const [chunk, nextChunk] = useChunk(data, batch);
     return (
         <FlatList
